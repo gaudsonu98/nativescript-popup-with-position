@@ -1,0 +1,9 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+    <ActionBar title="Nativescript Popover" icon=""></ActionBar>
+
+    <StackLayout class="p-20"  marginTop="100">
+        <Button text="Show Popover" class="h1 text-center" tap="showPopup" id="popupBtn"/>
+    </StackLayout>
+</Page>
